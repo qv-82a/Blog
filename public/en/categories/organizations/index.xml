@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on QV-82a Notes</title>
-    <link>http://localhost:1313/en/posts/</link>
-    <description>Recent content in Posts on QV-82a Notes</description>
+    <title>Organizations on QV-82a Notes</title>
+    <link>http://localhost:1313/en/categories/organizations/</link>
+    <description>Recent content in Organizations on QV-82a Notes</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 14 Sep 2026 05:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/en/categories/organizations/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Case Studies in Corporate Failure: Anatomy of the J.League Stadium Infrastructure Model (part2)</title>
       <link>http://localhost:1313/en/posts/2026-09-14-050859/</link>
