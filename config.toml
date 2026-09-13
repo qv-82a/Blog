@@ -12,11 +12,31 @@ defaultContentLanguageInSubdir = true
     title = 'QV-82a Notes'  # ←お好きなサイト名に変更してください
     description = 'データ分析・研究・考察ログ'
 
+[[languages.ja.menu.main]]
+  name = "記事一覧"
+  url = "/ja/posts/"
+  weight = 10
+
+[[languages.ja.menu.main]]
+  name = "カテゴリー"
+  url = "/ja/categories/"
+  weight = 20
+
   [languages.en]
     languageName = 'English'
     weight = 2
     title = 'QV-82a Notes'  # ←英語版のサイト名
     description = 'Notes and analytical logs on data and research.'
+
+[[languages.en.menu.main]]
+  name = "Posts"
+  url = "/en/posts/"
+  weight = 10
+
+[[languages.en.menu.main]]
+  name = "Categories"
+  url = "/en/categories/"
+  weight = 20
 
 # メニュー（言語切り替えボタン等の表示）
 [menu]
