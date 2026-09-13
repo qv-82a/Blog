@@ -1,0 +1,64 @@
+{{ define "main" }}
+<div class="site-header-intro" style="padding-top: 1rem; max-width: 800px;">
+  <!-- ① サイトの定義 -->
+  <h1 style="font-size: 2.2rem; font-weight: bold; margin-bottom: 0.8rem; line-height: 1.3;">
+    {{ .Params.headline }}
+  </h1>
+
+  <!-- ② サイトでやっていること -->
+  <p style="font-size: 1.1rem; line-height: 1.6; opacity: 0.9; margin-bottom: 0.8rem;">
+    {{ .Params.description }}
+  </p>
+
+  <!-- 独立性の明記 -->
+  {{ if .Params.disclaimer }}
+  <p style="font-size: 0.95rem; font-weight: 600; opacity: 0.75; margin-bottom: 1.2rem;">
+    {{ .Params.disclaimer }}
+  </p>
+  {{ end }}
+
+  <!-- ③ 得られるメリット -->
+  {{ if .Params.benefits }}
+  <div style="background: var(--entry); padding: 1.2rem 1.5rem; border-radius: 8px; border: 1px solid var(--border);">
+    <h3 style="font-size: 1.05rem; font-weight: bold; margin-bottom: 0.6rem;">
+      {{ if eq .Language.Lang "ja" }}このサイトで得られる視点:{{ else }}What You Will Gain:{{ end }}
+    </h3>
+    <ul style="line-height: 1.7; padding-left: 1.2rem; margin: 0;">
+      {{ range .Params.benefits }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</div>
+
+<!-- 余白を小さくした区切り線（1.5remに縮小） -->
+<hr style="margin: 1.5rem 0; border: 0; border-top: 1px solid var(--border);">
+
+<!-- ④ 最新の記事一覧 -->
+<div class="posts-list">
+  <h2 style="font-size: 1.4rem; font-weight: bold; margin-bottom: 1rem;">
+    {{ if eq .Language.Lang "ja" }}最新の記事{{ else }}Recent Posts{{ end }}
+  </h2>
+
+  {{ $pages := where site.RegularPages "Type" "in" (site.Params.mainSections | default (slice "posts")) }}
+  
+  {{ range first 10 $pages }}
+  <article class="post-entry" style="margin-bottom: 1.2rem;">
+    <header class="entry-header">
+      <h3 style="font-size: 1.3rem; font-weight: bold; margin-bottom: 0.4rem;">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </h3>
+    </header>
+    {{ if .Summary }}
+    <div class="entry-content" style="opacity: 0.8; font-size: 0.95rem; margin-bottom: 0.4rem;">
+      <p>{{ .Summary | plainify | htmlUnescape | truncate 180 }}</p>
+    </div>
+    {{ end }}
+    <footer class="entry-footer" style="font-size: 0.85rem; opacity: 0.6;">
+      <time>{{ .Date.Format "January 2, 2006" }}</time>
+    </footer>
+  </article>
+  {{ end }}
+</div>
+{{ end }}

@@ -25,3 +25,14 @@ defaultContentLanguageInSubdir = true
     name = "Posts"
     url = "posts/"
     weight = 10
+
+# グローバルな指定
+[params]
+  mainSections = ["posts"]
+
+# 言語別に定義している場合は、各言語のparams内にも指定します
+[languages.en.params]
+  mainSections = ["posts"]
+
+[languages.ja.params]
+  mainSections = ["posts"]
