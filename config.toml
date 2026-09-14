@@ -88,3 +88,10 @@ disableKinds = ["taxonomy", "term"]
 
 [languages.ja.params]
   mainSections = ["posts"]
+
+# Page Bundlesのパーマリンクをそのまま正しく処理させるためのスイッチ
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.image]
+        enableDefault = false
