@@ -15,19 +15,6 @@
                 href="http://localhost:1313/ja/posts/2026-09-14-050859/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ja/categories/</loc>
-    <lastmod>2026-09-14T05:00:00+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://localhost:1313/ja/categories/"
-                />
-  </url><url>
     <loc>http://localhost:1313/ja/posts/</loc>
     <lastmod>2026-09-14T05:00:00+09:00</lastmod>
     <xhtml:link
@@ -54,9 +41,6 @@
                 href="http://localhost:1313/ja/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ja/categories/%E4%BC%81%E6%A5%AD%E7%B5%84%E7%B9%94/</loc>
-    <lastmod>2026-09-14T05:00:00+09:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/ja/posts/2026-09-13-163419/</loc>
     <lastmod>2026-09-13T15:41:45+09:00</lastmod>
     <xhtml:link
@@ -70,16 +54,16 @@
                 href="http://localhost:1313/ja/posts/2026-09-13-163419/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ja/tags/</loc>
+    <loc>http://localhost:1313/ja/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="http://localhost:1313/en/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/tags/"
+                href="http://localhost:1313/ja/search/"
                 />
   </url>
 </urlset>

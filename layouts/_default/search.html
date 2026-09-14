@@ -1,0 +1,20 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+</header>
+
+<!-- Pagefind の検索窓エリア -->
+<div id="search"></div>
+
+<!-- Pagefind のCSSとJS（CDN経由） -->
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({ element: "#search", showSubResults: true });
+  });
+</script>
+
+{{- end }}

@@ -45,17 +45,25 @@
   {{- partial "extend_post_content.html" . }}
 
   <footer class="post-footer">
-    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
-    <ul class="post-tags">
-      {{- range ($.GetTerms $tags) }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-      {{- end }}
-    </ul>
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
     {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
     {{- partial "share_icons.html" . -}}
+    {{- end }}
+
+    {{- $related := .Site.RegularPages.Related . | first 3 }}
+    {{- with $related }}
+    <div class="related-posts" style="margin-top: 2rem; border-top: 1px solid var(--border); padding-top: 1.5rem;">
+      <h3 style="font-size: 1.1rem; margin-bottom: 1rem;">Related Content</h3>
+      <ul style="list-style: none; padding-left: 0;">
+        {{- range . }}
+        <li style="margin-bottom: 0.5rem;">
+          <a href="{{ .RelPermalink }}" style="box-shadow: none;">{{ .Title }}</a>
+        </li>
+        {{- end }}
+      </ul>
+    </div>
     {{- end }}
   </footer>
 

@@ -4,6 +4,23 @@ theme = 'PaperMod'
 defaultContentLanguage = 'ja'
 defaultContentLanguageInSubdir = true
 
+# タクソノミー機能停止指示
+disableKinds = ["taxonomy", "term"]
+
+# Hugo内蔵「Related Content」の設定（自動関連記事）
+[related]
+  includeNewer = true
+  threshold = 60         # 関連度の閾値（50〜80程度で調整）
+  toLower = true
+
+  [[related.indices]]
+    name = "fragment"    # 本文（コンテンツ）の文脈を最重視
+    weight = 100
+
+  [[related.indices]]
+    name = "date"        # 投稿日の近さをサブの判断材料にする
+    weight = 10
+
 # 言語設定（日本語と英語）
 [languages]
   [languages.ja]
@@ -12,17 +29,16 @@ defaultContentLanguageInSubdir = true
     title = 'QV-82a Notes'  # ←お好きなサイト名に変更してください
     description = 'データ分析・研究・考察ログ'
 
+[[languages.ja.menu.main]]
+  name = "サイト内検索"
+  url = "/ja/search/"
+  weight = 20
+
 # 投稿記事
 [[languages.ja.menu.main]]
   name = "記事一覧"
   url = "/ja/posts/"
   weight = 10
-
-# カテゴリーをメニューに追加
-[[languages.ja.menu.main]]
-  name = "カテゴリー"
-  url = "/ja/categories/"
-  weight = 20
 
 # RSSをメニューに追加
 [[languages.ja.menu.main]]
@@ -37,17 +53,16 @@ defaultContentLanguageInSubdir = true
     title = 'QV-82a Notes'  # ←英語版のサイト名
     description = 'Notes and analytical logs on data and research.'
 
+[[languages.en.menu.main]]
+  name = "Search Site"
+  url = "/search/"
+  weight = 20
+
 # 投稿記事
 [[languages.en.menu.main]]
   name = "Posts"
   url = "/en/posts/"
   weight = 10
-
-# カテゴリーをメニューに追加
-[[languages.en.menu.main]]
-  name = "Categories"
-  url = "/en/categories/"
-  weight = 20
 
 # RSSをメニューに追加
 [[languages.en.menu.main]]
