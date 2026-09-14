@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on QV-82a Notes</title>
-    <link>http://localhost:1313/ja/posts/</link>
+    <link>https://capable-nasturtium-a12ee5.netlify.app/ja/posts/</link>
     <description>Recent content in Posts on QV-82a Notes</description>
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Mon, 14 Sep 2026 19:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/ja/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://capable-nasturtium-a12ee5.netlify.app/ja/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>企業のB/S（貸借対照表）を剥ぐと、中に「実体」がないことがある話</title>
-      <link>http://localhost:1313/ja/posts/2026-09-14-214050/2026-09-14-214050/</link>
+      <link>https://capable-nasturtium-a12ee5.netlify.app/ja/posts/2026-09-14-214050/</link>
       <pubDate>Mon, 14 Sep 2026 19:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/ja/posts/2026-09-14-214050/2026-09-14-214050/</guid>
+      <guid>https://capable-nasturtium-a12ee5.netlify.app/ja/posts/2026-09-14-214050/</guid>
       <description>&lt;p&gt;「企業」という言葉を聞いたとき、多くの人が思い浮かべるのはどんな姿でしょうか。&lt;/p&gt;
 &lt;p&gt;職人が技術を磨き、工場で地道にモノを作り、顧客に届ける。あるいは、独自のプロダクトを開発して社会の問題を解決する。そんな「手触りのある実体」を想像するのが普通です。&lt;/p&gt;
 &lt;p&gt;しかし、広報が打ち出す華やかなプレスリリースや、「イノベーション」「AI革命」といった美しい言葉（一次印象）を削ぎ落とし、法的な骨格である貸借対照表（B/S）という乾燥した事実だけを眺めてみると、まったく別の恐ろしい構造が浮かび上がることがあります。&lt;/p&gt;
@@ -23,7 +23,7 @@
 &lt;p&gt;もうひとつは、&lt;strong&gt;「B/Sは異常に肥大化しているが、社内に自前の技術が一切ない企業」&lt;/strong&gt;。 数兆〜数十兆円という巨額の資産（B/Sの左側）を誇りながら、その中身を解剖すると、自社の工場も研究開発の蓄積もほぼゼロ。あるのは「他社の株」と「世界中から借り集めた巨額の負債（B/Sの右側）」だけです。&lt;/p&gt;
 &lt;p&gt;
 
-  &lt;img src=&#34;./sheet.webp&#34; alt=&#34;sheet&#34;  /&gt;
+  &lt;img src=&#34;./sheet.webp&#34; alt=&#34;sheet&#34; /&gt;
 
 &lt;/p&gt;
 &lt;p&gt;自前でゼロから技術を生み出すのではなく、他人が血汗を流して作った技術を巨額のマネーで買い集め、時価で評価してB/Sを膨らませる。 彼らの本質はイノベーターでもメーカーでもなく、「レバレッジ（借金）をテコにして時価の差分を抜く、超大型のヘッジファンド」そのものです。&lt;/p&gt;
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>『失敗から学ぶ経営学 Jリーグ型スタジアム問題の解剖』④</title>
-      <link>http://localhost:1313/ja/posts/2026-09-14-145820/</link>
+      <link>https://capable-nasturtium-a12ee5.netlify.app/ja/posts/2026-09-14-145820/</link>
       <pubDate>Mon, 14 Sep 2026 14:10:00 +0900</pubDate>
-      <guid>http://localhost:1313/ja/posts/2026-09-14-145820/</guid>
+      <guid>https://capable-nasturtium-a12ee5.netlify.app/ja/posts/2026-09-14-145820/</guid>
       <description>&lt;h2 id=&#34;第4章ツケの先送りと無責任体質誰も責任を取らない逃げ切りのガバナンス&#34;&gt;第4章：ツケの先送りと無責任体質：誰も責任を取らない「逃げ切り」のガバナンス&lt;/h2&gt;
 &lt;p&gt;事業投資における最大の禁手は、「リターン（成果）は自分が受け取り、リスクとツケ（負債）は将来の他人に丸投げする」ことである。&lt;/p&gt;
 &lt;p&gt;プロスポーツのスタジアム建設プロジェクトをめぐっては、「地域活性化」や「夢のスタジアム建設」という華々しい成果（政治的実績や看板）だけが建設当事者によって消費され、20〜30年後に確実にやってくる「大規模修繕費」や「累積する維持赤字」という負債が、未来の市民と行政に丸投げされている。&lt;/p&gt;
@@ -101,9 +101,9 @@
     </item>
     <item>
       <title>『失敗から学ぶ経営学 Jリーグ型スタジアム問題の解剖』③</title>
-      <link>http://localhost:1313/ja/posts/2026-09-14-143343/</link>
+      <link>https://capable-nasturtium-a12ee5.netlify.app/ja/posts/2026-09-14-143343/</link>
       <pubDate>Mon, 14 Sep 2026 14:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/ja/posts/2026-09-14-143343/</guid>
+      <guid>https://capable-nasturtium-a12ee5.netlify.app/ja/posts/2026-09-14-143343/</guid>
       <description>&lt;h2 id=&#34;第3章拡大病とパイの食い合い&#34;&gt;第3章：「拡大病」とパイの食い合い&lt;/h2&gt;
 &lt;p&gt;プロスポーツリーグが健全なビジネスとして成立するための絶対条件は、「市場の経済規模（パイ）に応じた適正なチーム数を維持すること」である。&lt;/p&gt;
 &lt;p&gt;北米のプロスポーツリーグ（MLBやNBA、NFL）や日本のプロ野球（NPB）が参入障壁を極めて高く設定し、加盟チーム数を厳しく制限しているのはそのためだ。チーム数を絞ることで放映権料やスポンサー料の価値を高め、各クラブが自立した経営を行える市場環境を保護している。&lt;/p&gt;
@@ -151,9 +151,9 @@
     </item>
     <item>
       <title>『失敗から学ぶ経営学 Jリーグ型スタジアム問題の解剖』②</title>
-      <link>http://localhost:1313/ja/posts/2026-09-14-050859/</link>
+      <link>https://capable-nasturtium-a12ee5.netlify.app/ja/posts/2026-09-14-050859/</link>
       <pubDate>Mon, 14 Sep 2026 05:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/ja/posts/2026-09-14-050859/</guid>
+      <guid>https://capable-nasturtium-a12ee5.netlify.app/ja/posts/2026-09-14-050859/</guid>
       <description>&lt;h2 id=&#34;第2章顧客ではなく理念と見栄に殉ずる愚&#34;&gt;第2章：顧客ではなく「理念」と「見栄」に殉ずる愚&lt;/h2&gt;
 &lt;p&gt;民間ビジネスにおいて、プロダクトやサービスの仕様（スペック）を決めるのは、常に「顧客のニーズ」と「身の丈（予算）」である。&lt;/p&gt;
 &lt;p&gt;月給30万円の社員が通勤用に車を選ぶなら、中古の軽自動車やコンパクトカーを選ぶのが正常な経済感覚だ。無理をして高級外車を買えば、ローンと維持費で生活が破綻することは目に見えている。&lt;/p&gt;
@@ -207,9 +207,9 @@
     </item>
     <item>
       <title>『失敗から学ぶ経営学：Jリーグ型スタジアム問題の解剖』①</title>
-      <link>http://localhost:1313/ja/posts/2026-09-13-163419/</link>
+      <link>https://capable-nasturtium-a12ee5.netlify.app/ja/posts/2026-09-13-163419/</link>
       <pubDate>Sun, 13 Sep 2026 15:41:45 +0900</pubDate>
-      <guid>http://localhost:1313/ja/posts/2026-09-13-163419/</guid>
+      <guid>https://capable-nasturtium-a12ee5.netlify.app/ja/posts/2026-09-13-163419/</guid>
       <description>&lt;h2 id=&#34;第1章他人の金でやるビジネスは必ず腐敗する&#34;&gt;第1章：他人の金でやるビジネスは必ず腐敗する&lt;/h2&gt;
 &lt;p&gt;「プロスポーツで地域を活性化する」&lt;/p&gt;
 &lt;p&gt;「市民に夢と感動を届ける」&lt;/p&gt;
