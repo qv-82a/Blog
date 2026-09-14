@@ -24,7 +24,7 @@ An examination of corporate balance sheets by quality and composition reveals tw
 
    These entities boast massively inflated balance sheets, reporting assets valued in the trillions or tens of trillions of yen. Yet, an analysis of their asset composition reveals virtually no domestic production facilities or accumulated research and development capability. Their asset base consists almost entirely of equity stakes in third-party enterprises, funded by substantial liabilities aggregated from global debt markets.
    
-   ![sheet](./sheet.webp)
+   ![sheet](/ja/posts/2026-09-14-214050/sheet.webp)
 
 Rather than generating technology *ex nihilo*, such entities utilize scale capital to acquire the yield of external R&D, inflating their balance sheets via mark-to-market valuation adjustments. In economic substance, these enterprises operate not as industrial innovators or manufacturers, but as highly leveraged investment vehicles optimizing mark-to-market valuation spreads.
 
