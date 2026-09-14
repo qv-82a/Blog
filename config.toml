@@ -89,9 +89,16 @@ disableKinds = ["taxonomy", "term"]
 [languages.ja.params]
   mainSections = ["posts"]
 
-# Page Bundlesのパーマリンクをそのまま正しく処理させるためのスイッチ
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderHooks]
-      [markup.goldmark.renderHooks.image]
-        enableDefault = false
+#
+[module]
+  [module.hugoVersion]
+    extended = true
+
+# 多言語のバンドルで同階層のリソースを共有する設定
+[languages]
+  [languages.ja]
+    languageName = 'Japanese'
+    weight = 1
+  [languages.en]
+    languageName = 'English'
+    weight = 2
