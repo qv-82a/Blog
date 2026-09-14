@@ -1,6 +1,23 @@
 {{- $img := .Page.Resources.GetMatch .Destination -}}
+{{- if not $img -}}
+  {{- $img = .Page.Parent.Resources.GetMatch .Destination -}}
+{{- end -}}
+
 {{- if $img -}}
   <img src="{{ $img.RelPermalink }}" alt="{{ .Text }}" {{- with .Title }} title="{{ . }}"{{- end }} />
 {{- else -}}
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{- with .Title }} title="{{ . }}"{{- end }} />
+  {{- /* 同一フォルダで見つからない場合、他言語のリソースから探す */ -}}
+  {{- $allResources := .Page.AllTranslations -}}
+  {{- $found := false -}}
+  {{- range $allResources -}}
+    {{- if not $found -}}
+      {{- with .Resources.GetMatch $.Destination -}}
+        <img src="{{ .RelPermalink }}" alt="{{ $.Text }}" />
+        {{- $found = true -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not $found -}}
+    <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
+  {{- end -}}
 {{- end -}}
